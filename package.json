@@ -1,0 +1,30 @@
+{
+  "name": "node-kit",
+  "version": "0.0.1",
+  "description": "Node based compiler for .kit files.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeremyworboys/node-kit.git"
+  },
+  "keywords": [
+  ],
+  "author": "Jeremy Worboys <jw@jeremyworboys.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyworboys/node-kit/issues"
+  }
+}
