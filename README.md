@@ -15,7 +15,7 @@ $ npm install node-kit
 ## Usage
 
 ```js
-var kit = require('kit');
+var kit = require('node-kit');
 var html = kit('path/to/file.kit');
 ```
 
