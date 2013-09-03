@@ -21,6 +21,15 @@
     "url": "git://github.com/jeremyworboys/node-kit.git"
   },
   "keywords": [
+    "node",
+    "kit",
+    "codekit",
+    "preprocess",
+    "preprocessor",
+    "html",
+    "import",
+    "include",
+    "variables"
   ],
   "author": "Jeremy Worboys <jw@jeremyworboys.com>",
   "license": "MIT",
