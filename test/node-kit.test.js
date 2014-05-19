@@ -11,19 +11,19 @@ chai.Assertion.includeStack = true;
 describe('Kit', function () {
 
     it('should be a subset of HTML', function () {
-        kit('test/fixtures/subset.kit').should.equal(read('test/fixtures/results/subset.html').toString());
+        kit(__dirname + '/fixtures/subset.kit').should.equal(read(__dirname + '/fixtures/results/subset.html').toString());
     });
 
     it('should parse imports', function () {
-        kit('test/fixtures/imports.kit').should.equal(read('test/fixtures/results/imports.html').toString());
+        kit(__dirname + '/fixtures/imports.kit').should.equal(read(__dirname + '/fixtures/results/imports.html').toString());
     });
 
     it('should parse variables', function () {
-        kit('test/fixtures/variables.kit').should.equal(read('test/fixtures/results/variables.html').toString());
+        kit(__dirname + '/fixtures/variables.kit').should.equal(read(__dirname + '/fixtures/results/variables.html').toString());
     });
 
     it('should parse variables from parent in child files', function () {
-        kit('test/fixtures/variablesImport.kit').should.equal(read('test/fixtures/results/variablesImport.html').toString());
+        kit(__dirname + '/fixtures/variablesImport.kit').should.equal(read(__dirname + '/fixtures/results/variablesImport.html').toString());
     });
 
     it('should parse a string', function () {
