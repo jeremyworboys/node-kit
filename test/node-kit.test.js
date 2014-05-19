@@ -5,7 +5,7 @@ var chai = require('chai');
 var should = chai.should();
 var read = require('fs').readFileSync;
 
-chai.Assertion.includeStack = true;
+chai.config.includeStack = true;
 
 
 describe('Kit', function () {

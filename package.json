@@ -6,11 +6,10 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*"
+    "chai": "^1.9.1",
+    "mocha": "^1.19.0"
   },
   "scripts": {
     "prepublish": "npm prune",
