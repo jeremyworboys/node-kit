@@ -22,6 +22,10 @@ describe('Kit', function () {
         kit(__dirname + '/fixtures/variables.kit').should.equal(read(__dirname + '/fixtures/results/variables.html').toString());
     });
 
+    it('should parse variables regardless of @ or $', function () {
+        kit(__dirname + '/fixtures/mixed-vars.kit').should.equal(read(__dirname + '/fixtures/results/mixed-vars.html').toString());
+    });
+
     it('should parse variables from parent in child files', function () {
         kit(__dirname + '/fixtures/variablesImport.kit').should.equal(read(__dirname + '/fixtures/results/variablesImport.html').toString());
     });
