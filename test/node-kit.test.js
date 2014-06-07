@@ -38,6 +38,10 @@ describe('Kit', function () {
         kit('<!-- $myVar: winning --><!--$myVar-->').should.equal('winning');
     });
 
+    it('should render variables correctly into meta tags', function() {
+        kit(__dirname + '/fixtures/page.kit').should.equal(read(__dirname + '/fixtures/results/page.html').toString());
+    });
+
     it('should throw an error for infinite loop', function () {
         var err;
         try {
