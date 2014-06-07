@@ -1,4 +1,9 @@
 
+0.4.0 / 2014-06-07
+==================
+
+ * Fix error where content after special comment on same line would be dropped.
+
 0.3.0 / 2014-06-02
 ==================
 
