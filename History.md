@@ -1,4 +1,9 @@
 
+0.5.0 / 2014-06-10
+==================
+
+ * Discard newline directly after import and assignment directives
+
 0.4.0 / 2014-06-07
 ==================
 
