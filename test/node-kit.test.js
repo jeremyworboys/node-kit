@@ -18,6 +18,10 @@ describe('Kit', function () {
         kit(__dirname + '/fixtures/imports.kit').should.equal(read(__dirname + '/fixtures/results/imports.html').toString());
     });
 
+    it('should parse relative imports properly', function () {
+        kit(__dirname + '/fixtures/relative/importsRelative.kit').should.equal(read(__dirname + '/fixtures/results/imports.html').toString());
+    });
+
     it('should parse variables', function () {
         kit(__dirname + '/fixtures/variables.kit').should.equal(read(__dirname + '/fixtures/results/variables.html').toString());
     });
