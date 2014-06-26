@@ -30,8 +30,16 @@ describe('Kit', function () {
         kit(__dirname + '/fixtures/variablesImport.kit').should.equal(read(__dirname + '/fixtures/results/variablesImport.html').toString());
     });
 
+    it('should parse multiline variables', function () {
+        kit(__dirname + '/fixtures/multilineVariables.kit').should.equal(read(__dirname + '/fixtures/results/multilineVariables.html').toString());
+    });
+
     it('should parse a string', function () {
         kit('<!-- $myVar: winning --><!--$myVar-->').should.equal('winning');
+    });
+
+    it('should render variables correctly into meta tags', function() {
+        kit(__dirname + '/fixtures/page.kit').should.equal(read(__dirname + '/fixtures/results/page.html').toString());
     });
 
     it('should throw an error for infinite loop', function () {
