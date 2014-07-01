@@ -1,6 +1,6 @@
 {
   "name": "node-kit",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Node based compiler for .kit files.",
   "main": "index.js",
   "directories": {
