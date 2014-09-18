@@ -64,15 +64,6 @@ describe('Kit', function () {
         should.exist(err);
     });
 
-    it('should throw an error for attempting to access variables set in child files', function () {
-        var err;
-        try {
-            kit('test/fixtures/variablesScope.kit');
-        }
-        catch (e) { err = e; }
-        should.exist(err);
-    });
-
     it('should throw an error for missing import', function () {
         var err;
         try {
