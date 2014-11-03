@@ -64,6 +64,11 @@ describe('Kit', function () {
         should.exist(err);
     });
 
+    it('should be able to access variables set in child files', function () {
+        kit('test/fixtures/undeclaredVariableUse.kit')
+            .should.equal(read(__dirname + '/fixtures/results/undeclaredVariableUse.html').toString())
+    });
+
     it('should throw an error for missing import', function () {
         var err;
         try {
