@@ -60,6 +60,10 @@ describe('Kit', function () {
         fixtureTest('page');
     });
 
+    it('should render whitespace correctly (#11)', function() {
+        fixtureTest('issue-11');
+    });
+
     it('should throw an error for infinite loop', function () {
         errorTest('importsLoop');
     });
