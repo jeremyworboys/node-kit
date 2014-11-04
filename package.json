@@ -8,8 +8,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.20.1"
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1"
   },
   "scripts": {
     "prepublish": "npm prune",
