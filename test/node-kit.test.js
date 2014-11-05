@@ -64,21 +64,16 @@ describe('Kit', function () {
         fixtureTest('issue-11');
     });
 
+    it('should be able to access variables set in child files (#9)', function () {
+        fixtureTest('undeclaredVariableUse');
+    });
+
     it('should throw an error for infinite loop', function () {
         errorTest('importsLoop');
     });
 
     it('should throw an error for undefined variables', function () {
         errorTest('variablesUndefined');
-    });
-
-    it('should throw an error for attempting to access variables set in child files', function () {
-        errorTest('variablesScope');
-    });
-
-    it('should be able to access variables set in child files', function () {
-        kit('test/fixtures/undeclaredVariableUse.kit')
-            .should.equal(read(__dirname + '/fixtures/results/undeclaredVariableUse.html').toString())
     });
 
     it('should throw an error for missing import', function () {
