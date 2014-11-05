@@ -1,4 +1,10 @@
 
+0.7.0 / 2014-11-05
+==================
+
+ * Fix variable scope of imported files
+ * Fix whitespace to match Codekit output
+
 0.6.0 / 2014-07-01
 ==================
 
