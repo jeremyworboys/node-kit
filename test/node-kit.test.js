@@ -40,7 +40,7 @@ describe('Kit', function () {
         fixtureTest('variables');
     });
 
-    it('should parse variables regardless of @ or $', function () {
+    it('should threat @foo and $foo as referring to different variables', function () {
         fixtureTest('mixed-vars');
     });
 
