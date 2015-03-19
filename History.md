@@ -1,4 +1,9 @@
 
+0.8.1 / 2015-03-20
+==================
+
+ * Fix incorect parsing when only non-whitespace between variables (Issue #13)
+
 0.8.0 / 2014-11-17
 ==================
 
