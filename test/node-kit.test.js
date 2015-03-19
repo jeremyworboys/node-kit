@@ -63,6 +63,10 @@ describe('Kit', function () {
     it('should render whitespace correctly (#11)', function() {
         fixtureTest('issue-11');
     });
+    
+    it('should handle multiple variables in a single token (#13)', function() {
+        fixtureTest('issue-13');
+    });
 
     it('should be able to access variables set in child files (#9)', function () {
         fixtureTest('undeclaredVariableUse');
