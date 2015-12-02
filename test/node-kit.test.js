@@ -84,4 +84,8 @@ describe('Kit', function () {
         errorTest('importsMissing');
     });
 
+    it('shouldn\'t render a nil value for a variable', function () {
+        fixtureTest('variableToNil');
+    });
+
 });
