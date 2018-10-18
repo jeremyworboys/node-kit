@@ -1,4 +1,9 @@
 
+0.10.0 / 2018-10-19
+==================
+
+ * Add support for optional variables. (Issue #19)
+ 
 0.9.0 / 2015-12-03
 ==================
 
@@ -7,7 +12,7 @@
 0.8.1 / 2015-03-20
 ==================
 
- * Fix incorect parsing when only non-whitespace between variables (Issue #13)
+ * Fix incorrect parsing when only non-whitespace between variables (Issue #13)
 
 0.8.0 / 2014-11-17
 ==================
