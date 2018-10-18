@@ -12,7 +12,7 @@
     "mocha": "^2.0.1"
   },
   "scripts": {
-    "prepublish": "npm prune",
+    "prepare": "npm prune",
     "test": "make test"
   },
   "repository": {
