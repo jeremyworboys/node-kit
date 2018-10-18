@@ -4,7 +4,6 @@ Node based compiler for [.kit files](http://incident57.com/codekit/kit.php).
 
 [![NPM version](https://badge.fury.io/js/node-kit.svg)](http://badge.fury.io/js/node-kit)
 [![Build Status](https://travis-ci.org/jeremyworboys/node-kit.svg?branch=master)](https://travis-ci.org/jeremyworboys/node-kit)
-[![Gittip](http://img.shields.io/gittip/jeremyworboys.svg)](https://www.gittip.com/jeremyworboys/)
 
 
 ## Installation
