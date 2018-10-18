@@ -100,4 +100,8 @@ describe('Kit', function () {
         fixtureTest('optionalVariableMissing');
     });
 
+    it('should import files with base64 encoding', function () {
+        fixtureTest('base64Imports');
+    });
+
 });
