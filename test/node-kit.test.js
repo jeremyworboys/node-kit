@@ -88,4 +88,16 @@ describe('Kit', function () {
         fixtureTest('variableToNil');
     });
 
+    it('should throw an error when assigning to variable names ending in ?', function () {
+        errorTest('optionalVariableAssignment');
+    });
+
+    it('should render the value for an optional variable that exists', function () {
+        fixtureTest('optionalVariableExists');
+    });
+
+    it('should render a nil value for an optional variable that doesn\'t exist', function () {
+        fixtureTest('optionalVariableMissing');
+    });
+
 });
